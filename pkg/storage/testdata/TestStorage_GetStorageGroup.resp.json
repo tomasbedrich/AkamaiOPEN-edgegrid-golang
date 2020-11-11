@@ -1,0 +1,85 @@
+{
+    "contractId": "1-2ABCDE",
+    "storageGroupId": 9876543,
+    "storageGroupName": "example.com",
+    "storageGroupType": "OBJECTSTORE",
+    "storageGroupPurpose": "NETSTORAGE",
+    "domainPrefix": "example-com",
+    "asperaEnabled": false,
+    "pciEnabled": false,
+    "estimatedUsageGB": 0.48,
+    "allowEdit": true,
+    "migrationStatus": "-",
+    "provisionStatus": "PROVISIONED",
+    "cpcodes": [
+        {
+            "cpcodeId": 123,
+            "downloadSecurity": "ALL_EDGE_SERVERS",
+            "useSsl": false,
+            "serveFromZip": false,
+            "sendHash": false,
+            "quickDelete": false,
+            "numberOfFiles": 1,
+            "numberOfBytes": 478,
+            "lastChangesPropagated": true,
+            "requestUriCaseConversion": "NO_CONVERSION",
+            "queryStringConversion": {
+                "queryStringConversionMode": "STRIP_ALL_INCOMING_QUERY"
+            },
+            "pathCheckAndConversion": "DISALLOW_ALL_IMPROPER_PATHS",
+            "encodingConfig": {
+                "enforceEncoding": false,
+                "encoding": "UTF_8"
+            },
+            "dirListing": {
+                "maxListSize": 0,
+                "searchOn404": "DO_NOT_SEARCH"
+            },
+            "lastModifiedBy": "user28",
+            "lastModifiedDate": "2020-05-13T10:53:57Z"
+        }
+    ],
+    "zones": [
+        {
+            "zoneName": "europe",
+            "noCapacityAction": "SPILL_OUTSIDE",
+            "allowUpload": "YES",
+            "allowDownload": "YES",
+            "lastModifiedBy": "user28",
+            "lastModifiedDate": "2020-05-13T10:53:57Z"
+        },
+        {
+            "zoneName": "europe",
+            "noCapacityAction": "SPILL_OUTSIDE",
+            "allowUpload": "YES",
+            "allowDownload": "YES",
+            "lastModifiedBy": "user28",
+            "lastModifiedDate": "2020-05-13T10:53:57Z"
+        }
+    ],
+    "propagationStatus": {
+        "status": "ACTIVE",
+        "activeChanges": [
+            "PORTAL_COBRA_METADATA",
+            "PORTAL_PLANNER_METADATA",
+            "PLANNER_PLACEMENT",
+            "CNAMES"
+        ]
+    },
+    "lastModifiedBy": "user28",
+    "lastModifiedDate": "2020-05-13T11:03:39Z",
+    "links": [
+        {
+            "rel": "self",
+            "href": "/storage-services/api/v1/storage-groups/9876543"
+        },
+        {
+            "rel": "uploadAccounts",
+            "href": "/storage-services/api/v1/upload-accounts?storageGroupId=9876543"
+        },
+        {
+            "rel": "zones",
+            "href": "/storage-services/api/v1/zones"
+        }
+    ]
+}
